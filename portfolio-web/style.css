@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Mitr:wght@300&display=swap');
+
+* {
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ .container {
+    width: 960px;
+    margin: 0 auto;
+ }
+
+ nav {
+    height: 120px;
+    background-color: #1a1a1a;
+ }
+ .nav-flex {
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    
+ }
+
+ .nav-flex .social {
+    display: flex;
+    
+    justify-content: end ;
+    
+    
+ }
+
+ .logo a {
+    color: white;
+    font-family:'Archivo Black';
+    font-size: 3rem;
+    text-decoration: none;
+    
+ }
+ .logo  {
+    padding: 1rem;
+
+    
+ }
+ .logo p {
+    font-family: Mitr;
+    letter-spacing: 2rem;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+ }
